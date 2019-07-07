@@ -1,6 +1,6 @@
 # Algoritmo004.py
 #
-# Operadores de comparação -
+# Operadores de comparação - atenção às saídas
 #
 # By Maurilio Benevento - 05/07/2019
 
