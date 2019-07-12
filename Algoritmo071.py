@@ -17,3 +17,8 @@ for lin in arquivo  :
         dic[w] = dic.get(w,0) + 1
         print(w,'new',dic[w])
 print(dic)
+
+# abaixo temos uma classificaçào utilizando for
+#for k, v in sorted(dic.items()):
+#    print(k,v)
+    
