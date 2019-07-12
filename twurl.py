@@ -7,8 +7,8 @@ import hidden
 
 def augment(url, parameters):
     secrets = hidden.oauth()
-    consumer = oauth.OAuthConsumer(secrets['1zoYhdI1K5euxocBjzOS1IXvb'],secrets['0dGLKU2xOlswdpul96jG9uCi6Rh04PGyVpmEnpC6Mrt1g7AWSU'])
-    token = oauth.OAuthToken(secrets['40464395-y76NWQwcNrphnaqAgKfcjs6Yjpxqdp6di2psBTEXz'], secrets['JidOgQiZ7cvMhRjEKi44V8scwa4KXi9AbGYKxWod53IV2'])
+    consumer = oauth.OAuthConsumer(secrets[''],secrets[''])
+    token = oauth.OAuthToken(secrets[''], secrets[''])
 
     oauth_request = oauth.OAuthRequest.from_consumer_and_token(consumer,
                     token=token, http_method='GET', http_url=url,
